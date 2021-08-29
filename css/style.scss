@@ -1,0 +1,80 @@
+@import "../css/variables.scss";
+@import "../css/mixins.scss";
+@import "components/header.scss";
+@import "components/main.scss";
+@import "components/main-article.scss";
+@import "components/list-article.scss";
+@import "components/card.scss";
+@import "components/footer.scss";
+
+// general CSS
+body {
+  font-size: 15px;
+  font-family: "Alata", sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  h1,
+  h2,
+  h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 100;
+  }
+  h1 {
+    color: $white;
+    font-size: 43px;
+    border: 1px $white solid;
+    padding: 18px;
+    margin: auto;
+    width: 80%;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    color: $darkGray;
+    font-size: 26px;
+    width: 140px;
+    text-align: left;
+    margin: 0;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    // font-size: 11px;
+    // letter-spacing: 3px;
+  }
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+}
+
+.hide-in-mobile {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.hide-in-desktop {
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}

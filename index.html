@@ -11,30 +11,40 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="style.css" />
-
-    <title>Frontend Mentor | Loopstudios landing page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Loopstudios landing page</title>
   </head>
   <body>
     <header class="banner">
-      <nav>
-        <img src="images/logo.svg" alt="loopstudios" />
-        <ul>
-          <li>About</li>
-          <li>Careers</li>
-          <li>Events</li>
-          <li>Products</li>
-          <li>Support</li>
-        </ul>
-      </nav>
-      <div class="main-title">
-        <img src="images/desktop/image-hero.jpg" alt="hero" />
+      <div class="flex-column main-title">
+        <img src="images/mobile/image-hero.jpg" alt="hero" />
+        <nav class="flex-row">
+          <img src="images/logo.svg" alt="loopstudios" />
+          <div class="burger hide-in-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="flex-row links hide-in-mobile">
+            <a href="#">ABOUT</a>
+            <a href="#">CAREERS</a>
+            <a href="#">EVENTS</a>
+            <a href="#">PRODUCTS</a>
+            <a href="#">SUPPORT</a>
+          </div>
+        </nav>
         <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
       </div>
     </header>
-    <main>
-      <section class="main-article">
-        <img src="images/desktop/image-interactive.jpg" alt="interactive" />
+    <main class="flex-column">
+      <section class="flex-column main-article">
+        <img src="images/mobile/image-interactive.jpg" alt="interactive" />
         <article>
           <h2>THE LEADER IN INTERACTIVE VR</h2>
           <p>
@@ -45,72 +55,139 @@
           </p>
         </article>
       </section>
-      <section class="list-article">
-        <div class="flex">
+      <section class="flex-column list-article">
+        <!-- <div class="flex-row desktop">
           <h2>OUR CREATIONS</h2>
           <a href="" class="button">SEE ALL</a>
-        </div>
+        </div> -->
+        <h2 class="mobile">OUR CREATIONS</h2>
         <div class="grid">
-          <div class="card">
+          <div
+            class="card"
+            style="
+              background-image: linear-gradient(
+                  to right,
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0)
+                ),
+                url(images/mobile/image-deep-earth.jpg);
+            "
+          >
             <h3>DEEP EARTH</h3>
-            <img src="images/desktop/image-deep-earth.jpg" alt="deep earth" />
           </div>
-          <div class="card">
+          <div
+            class="card"
+            style="
+              background-image: linear-gradient(
+                  to right,
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0)
+                ),
+                url(images/mobile/image-night-arcade.jpg);
+            "
+          >
             <h3>NIGHT ARCADE</h3>
-            <img
-              src="images/desktop/image-night-arcade.jpg"
-              alt="night arcade"
-            />
           </div>
-          <div class="card">
+          <div
+            class="card"
+            style="
+              background-image: linear-gradient(
+                  to right,
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0)
+                ),
+                url(images/mobile/image-soccer-team.jpg);
+            "
+          >
             <h3>SOCCER TEAM VR</h3>
-            <img src="images/desktop/image-soccer-team.jpg" alt="soccer team" />
           </div>
-          <div class="card">
+          <div
+            class="card"
+            style="
+              background-image: linear-gradient(
+                  to right,
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0)
+                ),
+                url(images/mobile/image-grid.jpg);
+            "
+          >
             <h3>THE GRID</h3>
-            <img src="images/desktop/image-grid.jpg" alt="the grid" />
           </div>
-          <div class="card">
+          <div
+            class="card"
+            style="
+              background-image: linear-gradient(
+                  to right,
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0)
+                ),
+                url(images/mobile/image-from-above.jpg);
+            "
+          >
             <h3>FROM UP ABOVE VR</h3>
-            <img src="images/desktop/image-from-above.jpg" alt="from above" />
           </div>
-          <div class="card">
+          <div
+            class="card"
+            style="
+              background-image: linear-gradient(
+                  to right,
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0)
+                ),
+                url(images/mobile/image-pocket-borealis.jpg);
+            "
+          >
             <h3>POCKET BOREALIS</h3>
-            <img
-              src="images/desktop/image-pocket-borealis.jpg"
-              alt="pocket borealis"
-            />
           </div>
-          <div class="card">
+          <div
+            class="card"
+            style="
+              background-image: linear-gradient(
+                  to right,
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0)
+                ),
+                url(images/mobile/image-curiosity.jpg);
+            "
+          >
             <h3>THE CURIOSITY</h3>
-            <img src="images/desktop/image-curiosity.jpg" alt="the curiosity" />
           </div>
-          <div class="card">
+          <div
+            class="card"
+            style="
+              background-image: linear-gradient(
+                  to right,
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0)
+                ),
+                url(images/mobile/image-fisheye.jpg);
+            "
+          >
             <h3>MAKE IT FISHEYE</h3>
-            <img src="images/desktop/image-fisheye.jpg" alt="fisheye" />
           </div>
+        </div>
+        <div>
+          <a href="#" class="button">SEE ALL</a>
         </div>
       </section>
-      <footer>
-        <div class="flex footer-top">
-          <img src="images/logo.svg" alt="loopstudios" />
-          <ul>
-            <li>facebook</li>
-            <li>twitter</li>
-            <li>pinterest</li>
-            <li>instagram</li>
-          </ul>
-        </div>
-        <div class="flex footer-bottom">
-          <div class="flex network">
-            <img src="images/icon-facebook.svg" alt="facebook" />
-            <img src="images/icon-twitter.svg" alt="twitter" />
-            <img src="IMAGES/icon-pinterest.svg" alt="pinterest" />
-            <img src="images/icon-instagram.svg" alt="instagram" />
-          </div>
-          <p class="copyrigth">© 2021 Loopstudios. All rights reserved.</p>
-        </div>
-      </footer>
     </main>
+    <footer class="flex-column">
+      <img src="images/logo.svg" alt="loopstudios" />
+      <ul>
+        <li>About</li>
+        <li>Careers</li>
+        <li>Events</li>
+        <li>Products</li>
+        <li>Support</li>
+      </ul>
+      <div class="flex-row network">
+        <img src="images/icon-facebook.svg" alt="facebook" />
+        <img src="images/icon-twitter.svg" alt="twitter" />
+        <img src="IMAGES/icon-pinterest.svg" alt="pinterest" />
+        <img src="images/icon-instagram.svg" alt="instagram" />
+      </div>
+      <p class="copyrigth">© 2021 Loopstudios. All rights reserved.</p>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACZ,UAAU,EAAE,MAAM;CAWnB;;AAZD,AAEE,aAFW,CAEX,KAAK,CAAC;EACJ,MAAM,EAAE,MAAM;CACf;;AAJH,AAKE,aALW,CAKX,OAAO,CAAC;EACN,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,QAAQ;EACjB,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,GAAG;CACpB",
+    "sources": [
+        "list-article.scss",
+        "../variables.scss"
+    ],
+    "names": [],
+    "file": "list-article.css"
+}

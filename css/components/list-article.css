@@ -1,0 +1,16 @@
+.list-article {
+  text-align: center;
+}
+
+.list-article .grid {
+  margin: 15px 0;
+}
+
+.list-article .button {
+  border: 0.5px black solid;
+  padding: 5px 22px;
+  width: 22%;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+/*# sourceMappingURL=list-article.css.map */

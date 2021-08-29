@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+footer {
+  color: $white;
+  background-color: $black;
+  align-items: center;
+  padding: 50px 0;
+  img {
+    width: 40%;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    li {
+      margin: 20px;
+    }
+  }
+  .network {
+    width: 50%;
+    justify-content: space-evenly;
+    img {
+      margin: 20px 10px;
+    }
+  }
+  .copyrigth {
+    color: $veryDarkGray;
+    margin: 0;
+  }
+}

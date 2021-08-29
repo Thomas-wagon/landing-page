@@ -1,14 +1,12 @@
+@import "../variables.scss";
+
 .card {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 122px;
   background-size: cover;
   background-position: center;
+  h3 {
+    z-index: 1;
+  }
 }
-
-.card h3 {
-  z-index: 1;
-}
-/*# sourceMappingURL=card.css.map */

@@ -1,0 +1,13 @@
+@import "../variables.scss";
+
+.main-article {
+  margin-bottom: 15px;
+  article {
+    width: 90%;
+    text-align: center;
+    margin: 15px;
+    p {
+      color: $darkGray;
+    }
+  }
+}

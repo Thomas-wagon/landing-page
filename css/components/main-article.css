@@ -1,0 +1,14 @@
+.main-article {
+  margin-bottom: 15px;
+}
+
+.main-article article {
+  width: 90%;
+  text-align: center;
+  margin: 15px;
+}
+
+.main-article article p {
+  color: #8c8c8c;
+}
+/*# sourceMappingURL=main-article.css.map */

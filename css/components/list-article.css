@@ -12,5 +12,12 @@
   width: 22%;
   font-size: 11px;
   letter-spacing: 3px;
+  -webkit-transition: color 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+}
+
+.list-article .button:hover {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=list-article.css.map */

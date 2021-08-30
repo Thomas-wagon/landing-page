@@ -1,5 +1,7 @@
 @import "../css/variables.scss";
 @import "../css/mixins.scss";
+@import "../css/animations.scss";
+
 @import "components/header.scss";
 @import "components/main.scss";
 @import "components/main-article.scss";
@@ -14,6 +16,9 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   position: relative;
+  &.block-scroll {
+    overflow: hidden;
+  }
   h1,
   h2,
   h3 {
@@ -76,5 +81,11 @@ body {
 .hide-in-desktop {
   @include breakpoint-up(large) {
     display: none;
+  }
+}
+
+@media (min-width: 376px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

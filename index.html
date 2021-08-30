@@ -24,13 +24,14 @@
     <header class="banner">
       <div class="flex-column main-title">
         <img src="images/mobile/image-hero.jpg" alt="hero" />
+        <div class="overlayer has-fade"></div>
         <nav class="flex-row">
           <img src="images/logo.svg" alt="loopstudios" />
-          <div class="burger hide-in-desktop">
+          <a id="btnBurger" href="#" class="burger hide-in-desktop">
             <span></span>
             <span></span>
             <span></span>
-          </div>
+          </a>
           <div class="flex-row links hide-in-mobile">
             <a href="#">ABOUT</a>
             <a href="#">CAREERS</a>
@@ -39,6 +40,13 @@
             <a href="#">SUPPORT</a>
           </div>
         </nav>
+        <div class="flex-column mobile-menu has-fade">
+          <a href="#">ABOUT</a>
+          <a href="#">CAREERS</a>
+          <a href="#">EVENTS</a>
+          <a href="#">PRODUCTS</a>
+          <a href="#">SUPPORT</a>
+        </div>
         <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
       </div>
     </header>
@@ -189,5 +197,6 @@
       </div>
       <p class="copyrigth">© 2021 Loopstudios. All rights reserved.</p>
     </footer>
+    <script src="../landing-page/js/javascript.js"></script>
   </body>
 </html>

@@ -11,5 +11,10 @@
     width: 22%;
     font-size: 11px;
     letter-spacing: 3px;
+    transition: color 200ms ease-in-out;
+    &:hover {
+      background-color: $black;
+      color: $white;
+    }
   }
 }

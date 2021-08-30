@@ -11,4 +11,13 @@
 .card h3 {
   z-index: 1;
 }
+
+@media (min-width: 376px) {
+  .card {
+    height: 600px;
+  }
+  .card.from-above {
+    background-image: url(../../images/mobile/image-from-above.jpg);
+  }
+}
 /*# sourceMappingURL=card.css.map */
